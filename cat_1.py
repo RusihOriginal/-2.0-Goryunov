@@ -1,0 +1,11 @@
+from cat import Cat
+cat_1 = Cat("Барон", "Мальчик", 2)
+cat_2 = Cat("Сэм", "Мальчик", 2)
+print("Кот №1")
+print("Кличка:", cat_1.name)
+print("Пол:", cat_1.gender)
+print("Возраст:",cat_1.age, "года")
+print("Кот №2")
+print("Кличка:", cat_2.name)
+print("Пол:", cat_2.gender)
+print("Возраст:",cat_2.age,"года")
